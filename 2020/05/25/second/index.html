@@ -1,103 +1,225 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hans">
 <head>
-  <meta charset="utf-8">
-  
-  
-  <meta name="description" content="主题特别不好换，特别是一些插件和小程序的应用，代码稍有错误会导致hexo的全线崩溃
-第一步：打开hexo，找到主题
-找到心仪的主题，不要点击图片，点击下面的蓝色文字，这里我以CyanStyle主题为例
-cd到自己的博客目录，克隆主题代码，点击安装
-打开_config.yml文件，修改Hexo的_co" />
-  
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-  
-  
-  
-  
-  
-  
-  <title>再教你一招手把手换主题（保姆级教程） | Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"ccit18081430215.github.io","root":"/","scheme":"Gemini","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
   <meta name="description" content="主题特别不好换，特别是一些插件和小程序的应用，代码稍有错误会导致hexo的全线崩溃 第一步：打开hexo，找到主题 找到心仪的主题，不要点击图片，点击下面的蓝色文字，这里我以CyanStyle主题为例 cd到自己的博客目录，克隆主题代码，点击安装 打开_config.yml文件，修改Hexo的_config.yml中的theme为cyanstyle。 找到插件代码，复制到自己的_config.ym">
 <meta property="og:type" content="article">
 <meta property="og:title" content="再教你一招手把手换主题（保姆级教程）">
 <meta property="og:url" content="https://ccit18081430215.github.io/2020/05/25/second/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="smy">
 <meta property="og:description" content="主题特别不好换，特别是一些插件和小程序的应用，代码稍有错误会导致hexo的全线崩溃 第一步：打开hexo，找到主题 找到心仪的主题，不要点击图片，点击下面的蓝色文字，这里我以CyanStyle主题为例 cd到自己的博客目录，克隆主题代码，点击安装 打开_config.yml文件，修改Hexo的_config.yml中的theme为cyanstyle。 找到插件代码，复制到自己的_config.ym">
-<meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://ccit18081430215.github.io/images/11111.png">
 <meta property="og:image" content="https://ccit18081430215.github.io/images/22222.png">
 <meta property="og:image" content="https://ccit18081430215.github.io/images/33333.png">
 <meta property="og:image" content="https://ccit18081430215.github.io/images/44444.png">
 <meta property="og:image" content="https://ccit18081430215.github.io/images/55555.jpg">
 <meta property="article:published_time" content="2020-05-25T03:55:04.395Z">
-<meta property="article:modified_time" content="2020-05-25T04:03:34.351Z">
+<meta property="article:modified_time" content="2020-05-30T09:04:17.468Z">
 <meta property="article:author" content="ccit18081430215">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://ccit18081430215.github.io/images/11111.png">
-  
-  
-    <link rel="icon" href="/css/images/favicon.ico">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
 
-  
+<link rel="canonical" href="https://ccit18081430215.github.io/2020/05/25/second/">
 
-  
-  <!-- baidu webmaster push -->
-  <script src='//push.zhanzhang.baidu.com/push.js'></script>
-<meta name="generator" content="Hexo 4.2.1"></head>
-<body class="home blog custom-background custom-font-enabled single-author">
-  <div id="page" class="hfeed site">
-      <header id="masthead" class="site-header" role="banner">
-    <hgroup>
-      <h1 class="site-title">
-        <a href="/" title="Hexo" rel="home">Hexo</a>
-      </h1>
-      
-        <h2 class="site-description hitokoto"></h2>
-        <script type="text/javascript" src="https://v1.hitokoto.cn/?encode=js"></script>
-      
-    </hgroup>
 
-    <nav id="site-navigation" class="main-navigation" role="navigation">
-            <button class="menu-toggle">菜单</button>
-            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
-            <div class="menu-main-container">
-                <ul id="menu-main" class="nav-menu">
-                
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Home</a></li>
-                
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/archives">Archives</a></li>
-                
-                </ul>
-            </div>
-    </nav>
-</header>
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true
+  };
+</script>
 
-      <div id="main" class="wrapper">
-        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-second" class="post-second post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title article-title">
-      再教你一招手把手换主题（保姆级教程）
-    </h1>
+  <title>再教你一招手把手换主题（保姆级教程） | smy</title>
   
 
-        
-        <div class="comments-link">
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Navigationsleiste an/ausschalten">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">smy</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Startseite</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Schlagwörter</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Kategorien</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archiv</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
             
-            <a href="javascript:void(0);" data-url="https://ccit18081430215.github.io/2020/05/25/second/" data-id="ckartdp3i0002r8wffc04bcua" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
 
-    <div class="entry-content">
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://ccit18081430215.github.io/2020/05/25/second/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/smy.jpg">
+      <meta itemprop="name" content="ccit18081430215">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="smy">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          再教你一招手把手换主题（保姆级教程）
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Veröffentlicht am</span>
+
+              <time title="Erstellt: 2020-05-25 11:55:04" itemprop="dateCreated datePublished" datetime="2020-05-25T11:55:04+08:00">2020-05-25</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">Bearbeitet am</span>
+                <time title="Geändert am: 2020-05-30 17:04:17" itemprop="dateModified" datetime="2020-05-30T17:04:17+08:00">2020-05-30</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2020/05/25/second/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/05/25/second/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
         <p>主题特别不好换，特别是一些插件和小程序的应用，代码稍有错误会导致hexo的全线崩溃</p>
 <h2 id="第一步：打开hexo，找到主题"><a href="#第一步：打开hexo，找到主题" class="headerlink" title="第一步：打开hexo，找到主题"></a>第一步：打开<a href="https://hexo.io/" target="_blank" rel="noopener">hexo</a>，找到主题</h2><p><img src="/images/11111.png" alt=""></p>
@@ -106,111 +228,242 @@ cd到自己的博客目录，克隆主题代码，点击安装
 <h3 id="打开-config-yml文件，修改Hexo的-config-yml中的theme为cyanstyle。"><a href="#打开-config-yml文件，修改Hexo的-config-yml中的theme为cyanstyle。" class="headerlink" title="打开_config.yml文件，修改Hexo的_config.yml中的theme为cyanstyle。"></a>打开_config.yml文件，修改Hexo的_config.yml中的theme为cyanstyle。</h3><p><img src="/images/44444.png" alt=""></p>
 <h3 id="找到插件代码，复制到自己的-config-yml文件下"><a href="#找到插件代码，复制到自己的-config-yml文件下" class="headerlink" title="找到插件代码，复制到自己的_config.yml文件下"></a>找到插件代码，复制到自己的_config.yml文件下</h3><p><img src="/images/55555.jpg" alt=""></p>
 <h3 id="hexo-g运行，本地确认无误后上传至guitub"><a href="#hexo-g运行，本地确认无误后上传至guitub" class="headerlink" title="hexo g运行，本地确认无误后上传至guitub"></a>hexo g运行，本地确认无误后上传至guitub</h3>
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/2020/05/25/second/">
-    <time datetime="2020-05-25T03:55:04.395Z" class="entry-date">
-        2020-05-25
-    </time>
-</a>
-    
-    
-    </footer>
-</article>
-
-
-    
-<nav class="nav-single">
-    <h3 class="assistive-text">文章导航</h3>
-    
-        <span class="nav-previous"><a href="/2020/05/29/third/" rel="prev"><span class="meta-nav">←</span> 如何上传图片</a></span>
-    
-    
-        <span class="nav-next"><a href="/2020/05/24/first-blog/" rel="next">教你如何手把手搭建自己的hexo（保姆级教程） <span class="meta-nav">→</span></a></span>
-    
-</nav><!-- .nav-single -->
-
-
-
-
-
-
-
-</div></div>
-        <div id="secondary" class="widget-area" role="complementary">
-  
-    <aside id="search" class="widget widget_search"><form role="search" method="get" accept-charset="utf-8" id="searchform" class="searchform" action="//google.com/search">
-    <div>
-        <input type="text" value="" name="s" id="s" />
-        <input type="submit" id="searchsubmit" value="搜索" />
     </div>
-</form></aside>
-  
+
     
-  
     
-  
     
-  <aside class="widget">
-    <h3 class="widget-title">Recents</h3>
-    <div class="widget-content">
-      <ul>
+
+      <footer class="post-footer">
+
         
-          <li>
-            <a href="/2020/05/29/third/">如何上传图片</a>
-          </li>
+
+
         
-          <li>
-            <a href="/2020/05/25/second/">再教你一招手把手换主题（保姆级教程）</a>
-          </li>
-        
-          <li>
-            <a href="/2020/05/24/first-blog/">教你如何手把手搭建自己的hexo（保姆级教程）</a>
-          </li>
-        
-          <li>
-            <a href="/2020/05/24/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/05/24/first-blog/" rel="prev" title="教你如何手把手搭建自己的hexo（保姆级教程）">
+      <i class="fa fa-chevron-left"></i> 教你如何手把手搭建自己的hexo（保姆级教程）
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/05/29/third/" rel="next" title="如何上传图片">
+      如何上传图片 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
-  </aside>
-
-  
+      </footer>
     
+  </article>
   
-    
   
-</div>
-      </div>
-      <footer id="colophon" role="contentinfo">
-    <p>&copy; 2020 ccit18081430215
-    All rights reserved.</p>
-    <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
-</footer>
-    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/js/share.js'];</script>
-
-<script src="/js/jquery-3.3.1.min.js"></script>
-
-
   
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-<script src="/js/navigation.js"></script>
-
-<div id="bg"></div>
 
   </div>
+
+
+          </div>
+          
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Inhaltsverzeichnis
+        </li>
+        <li class="sidebar-nav-overview">
+          Übersicht
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#第一步：打开hexo，找到主题"><span class="nav-number">1.</span> <span class="nav-text">第一步：打开hexo，找到主题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#找到心仪的主题，不要点击图片，点击下面的蓝色文字，这里我以CyanStyle主题为例"><span class="nav-number">1.1.</span> <span class="nav-text">找到心仪的主题，不要点击图片，点击下面的蓝色文字，这里我以CyanStyle主题为例</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cd到自己的博客目录，克隆主题代码，点击安装"><span class="nav-number">1.2.</span> <span class="nav-text">cd到自己的博客目录，克隆主题代码，点击安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#打开-config-yml文件，修改Hexo的-config-yml中的theme为cyanstyle。"><span class="nav-number">1.3.</span> <span class="nav-text">打开_config.yml文件，修改Hexo的_config.yml中的theme为cyanstyle。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#找到插件代码，复制到自己的-config-yml文件下"><span class="nav-number">1.4.</span> <span class="nav-text">找到插件代码，复制到自己的_config.yml文件下</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-g运行，本地确认无误后上传至guitub"><span class="nav-number">1.5.</span> <span class="nav-text">hexo g运行，本地确认无误后上传至guitub</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ccit18081430215"
+      src="/images/smy.jpg">
+  <p class="site-author-name" itemprop="name">ccit18081430215</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">Artikel</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/ccit18081430215" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;ccit18081430215" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:1662505770@qq.com" title="E-Mail → mailto:1662505770@qq.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title">
+      <i class="fa fa-fw fa-link"></i>
+      Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://ccit18081430215.com/" title="http:&#x2F;&#x2F;ccit18081430215.com&#x2F;" rel="noopener" target="_blank">smy</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://ccit18081430215.com/" title="http:&#x2F;&#x2F;ccit18081430215.com&#x2F;" rel="noopener" target="_blank">博客导航</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ccit18081430215</span>
+</div>
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.1
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">Design – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.7.2
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'NMQ07qblHysvlyJnTgcSDGYL-gzGzoHsz',
+      appKey     : '9hACi02Sfgn7l6lOzLM8QrUM',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
+
 </body>
 </html>
