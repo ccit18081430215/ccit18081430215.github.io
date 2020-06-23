@@ -153,6 +153,150 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://ccit18081430215.github.io/2020/06/23/smy5/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/smy.jpg">
+      <meta itemprop="name" content="ccit18081430215">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="smy">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/06/23/smy5/" class="post-title-link" itemprop="url">网页控制矩阵</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Veröffentlicht am</span>
+
+              <time title="Erstellt: 2020-06-23 19:21:59" itemprop="dateCreated datePublished" datetime="2020-06-23T19:21:59+08:00">2020-06-23</time>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2020/06/23/smy5/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/06/23/smy5/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="第一：添加代码"><a href="#第一：添加代码" class="headerlink" title="第一：添加代码"></a>第一：添加代码</h2><h3 id="为实现这个功能我们需要添加以下代码"><a href="#为实现这个功能我们需要添加以下代码" class="headerlink" title="为实现这个功能我们需要添加以下代码"></a>为实现这个功能我们需要添加以下代码</h3><p><img src="/images/99919.png" alt=""><br><img src="/images/99929.png" alt=""><br><img src="/images/99939.png" alt=""><br>回到网页后</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://ccit18081430215.github.io/2020/06/23/smy4/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/smy.jpg">
+      <meta itemprop="name" content="ccit18081430215">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="smy">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/06/23/smy4/" class="post-title-link" itemprop="url">显示加速度计</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Veröffentlicht am</span>
+
+              <time title="Erstellt: 2020-06-23 19:21:44" itemprop="dateCreated datePublished" datetime="2020-06-23T19:21:44+08:00">2020-06-23</time>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2020/06/23/smy4/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/06/23/smy4/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="第一：修改代码"><a href="#第一：修改代码" class="headerlink" title="第一：修改代码"></a>第一：修改代码</h2><h3 id="在原先的代码添加一个来跟踪通知订阅"><a href="#在原先的代码添加一个来跟踪通知订阅" class="headerlink" title="在原先的代码添加一个来跟踪通知订阅"></a>在原先的代码添加一个来跟踪通知订阅</h3><p><img src="/images/00011.png" alt=""><br>之后再添加一个开关用来控制通知的开启和关闭<br><img src="/images/00012.png" alt=""><br>在添加读写型号的函数跟改变LED的写函数<br><img src="/images/00013.png" alt=""><br><img src="/images/00014.png" alt=""><br>前面增加表格。显示通知开启为ture,否则为false<br><img src="/images/00015.png" alt=""><br>在toggleAccelerometerNotifications()函数中调用到了setNotificationsStatus(true)函数，这个函数是用来改变表格中的值，开启为true，关闭为false<br><img src="/images/00016.png" alt=""><br>最后<br><img src="/images/zz.png" alt=""></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
     <link itemprop="mainEntityOfPage" href="https://ccit18081430215.github.io/2020/06/21/smy3/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -782,7 +926,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">Artikel</span>
         </a>
       </div>
